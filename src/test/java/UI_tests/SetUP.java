@@ -24,6 +24,8 @@ public class SetUP {
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
         capabilities.setCapability(MobileCapabilityType.FULL_RESET, "False");
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "100");
+        capabilities.setCapability("unicodeKeyboard", "true");
+        capabilities.setCapability("resetKeyboard", "true");
 
 
         URL remoteUrl = new URL("http://127.0.0.01:4723/wd/hub");

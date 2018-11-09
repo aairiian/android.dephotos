@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ea5be33-a739-4178-9b04-e631fcece200" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SetUP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/UI_tests/LoginUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,8 +26,20 @@
       <file leaf-file-name="SetUP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="214">
+              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplashScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SplashScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,11 +50,20 @@
       <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="219">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NativeMethodAccessorImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -471,7 +492,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginUser">
+  <component name="RunManager" selected="JUnit.LoginUser.loginWithValidCredentials">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -489,6 +510,29 @@
       <option name="MAIN_CLASS_NAME" value="UI_tests.LoginUser" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LoginUser.loginWithValidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="android.dephotos_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UI_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="UI_tests" />
+      <option name="MAIN_CLASS_NAME" value="UI_tests.LoginUser" />
+      <option name="METHOD_NAME" value="loginWithValidCredentials" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -574,9 +618,11 @@
       <item itemvalue="JUnit.SetUP" />
       <item itemvalue="JUnit.SetUP.loginWithValidCredentials" />
       <item itemvalue="JUnit.LoginUser" />
+      <item itemvalue="JUnit.LoginUser.loginWithValidCredentials" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginUser.loginWithValidCredentials" />
         <item itemvalue="JUnit.LoginUser" />
         <item itemvalue="JUnit.SetUP.loginWithValidCredentials" />
         <item itemvalue="JUnit.SetUP" />
@@ -597,24 +643,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SetUP - 2018.11.09 at 13h 13m 17s.xml">
-      <configuration name="SetUP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetUP - 2018.11.09 at 13h 15m 23s.xml">
-      <configuration name="SetUP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetUP - 2018.11.09 at 13h 18m 16s.xml">
-      <configuration name="SetUP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetUP - 2018.11.09 at 13h 48m 50s.xml">
-      <configuration name="SetUP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetUP_loginWithValidCredentials - 2018.11.09 at 13h 50m 11s.xml">
-      <configuration name="SetUP.loginWithValidCredentials" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetUP_loginWithValidCredentials - 2018.11.09 at 13h 53m 36s.xml">
-      <configuration name="SetUP.loginWithValidCredentials" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SetUP_loginWithValidCredentials - 2018.11.09 at 14h 05m 02s.xml">
       <configuration name="SetUP.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
@@ -626,6 +654,24 @@
     </history-entry>
     <history-entry file="SetUP_loginWithValidCredentials - 2018.11.09 at 14h 08m 06s.xml">
       <configuration name="SetUP.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 43m 14s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 43m 45s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 48m 09s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 54m 54s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 58m 59s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 18h 07m 20s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -652,14 +698,36 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info id="Designer" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32890365" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32890365" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.32890365" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32890365" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info id="Favorites" order="4" side_tool="true" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -693,8 +761,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="-26">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -703,8 +812,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="356">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="414" selection-start-line="18" selection-start-column="414" selection-end-line="18" selection-end-column="414" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
