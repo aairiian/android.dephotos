@@ -1,15 +1,17 @@
-package UI_tests;
+package tests;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class SetUP {
+public class TestBase {
 
     AndroidDriver driver;
+    WebDriverWait wait;
 
 
     @Before
@@ -21,15 +23,16 @@ public class SetUP {
         capabilities.setCapability("deviceName","Samsung SM-G950FD");
         capabilities.setCapability(MobileCapabilityType.UDID, "ce12171ca2cbab0d04");
         capabilities.setCapability("app", "/Users/user/Downloads/Root-debug.apk");
-        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
+        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         capabilities.setCapability(MobileCapabilityType.FULL_RESET, "False");
-        capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "100");
-        capabilities.setCapability("unicodeKeyboard", "true");
-        capabilities.setCapability("resetKeyboard", "true");
+//        capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "100");
+//        capabilities.setCapability("unicodeKeyboard", "true");
+//        capabilities.setCapability("resetKeyboard", "true");
 
 
         URL remoteUrl = new URL("http://127.0.0.01:4723/wd/hub");
         driver = new AndroidDriver(remoteUrl,capabilities);
+        wait = new WebDriverWait(driver,10);
         System.out.println("Appium server started successfully");
 
     }

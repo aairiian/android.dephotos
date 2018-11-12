@@ -1,19 +1,17 @@
-package UI_tests;
+package tests;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class SplashScreen extends SetUP {
+public class SplashScreen extends TestBase {
 
 
     @Test
     public void openSplashScreen (){
 
-        WebDriverWait waitForDoneIcon = new WebDriverWait(driver, 10);
-        waitForDoneIcon.until(ExpectedConditions.visibilityOfElementLocated(By.className("android.widget.ImageButton")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("android.widget.ImageButton")));
 
         WebElement doneIcon = driver.findElement(By.className("android.widget.ImageButton"));
         doneIcon.click();

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ea5be33-a739-4178-9b04-e631fcece200" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/test/classes/UI_tests/LoginUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_tests/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SplashScreen.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -22,12 +23,12 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SetUP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+            <state relative-caret-position="299">
+              <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,10 +37,10 @@
         </entry>
       </file>
       <file leaf-file-name="SplashScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SplashScreen.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/SplashScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,38 +49,15 @@
         </entry>
       </file>
       <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="165">
+              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NativeMethodAccessorImpl.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogIn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LogIn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradlew" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
@@ -404,12 +382,16 @@
         <option value="$PROJECT_DIR$/src/test/java/SetUP.java" />
         <option value="$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java" />
         <option value="$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SetUP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SplashScreen.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/TestBase.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1877" />
-    <option name="y" value="-64" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-60" />
     <option name="width" value="1920" />
     <option name="height" value="1000" />
   </component>
@@ -464,7 +446,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UI_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -500,14 +482,14 @@
       <module name="android.dephotos_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UI_tests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="UI_tests" />
-      <option name="MAIN_CLASS_NAME" value="UI_tests.LoginUser" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginUser" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -523,14 +505,14 @@
       <module name="android.dephotos_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UI_tests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="UI_tests" />
-      <option name="MAIN_CLASS_NAME" value="UI_tests.LoginUser" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginUser" />
       <option name="METHOD_NAME" value="loginWithValidCredentials" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -542,12 +524,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SetUP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="android.dephotos_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="UI_tests" />
-      <option name="MAIN_CLASS_NAME" value="UI_tests.SetUP" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestBase" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -559,12 +541,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SetUP.loginWithValidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBase.loginWithValidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="android.dephotos_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="UI_tests" />
-      <option name="MAIN_CLASS_NAME" value="UI_tests.SetUP" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestBase" />
       <option name="METHOD_NAME" value="loginWithValidCredentials" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -615,8 +597,8 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SetUP" />
-      <item itemvalue="JUnit.SetUP.loginWithValidCredentials" />
+      <item itemvalue="JUnit.TestBase" />
+      <item itemvalue="JUnit.TestBase.loginWithValidCredentials" />
       <item itemvalue="JUnit.LoginUser" />
       <item itemvalue="JUnit.LoginUser.loginWithValidCredentials" />
     </list>
@@ -624,8 +606,8 @@
       <list>
         <item itemvalue="JUnit.LoginUser.loginWithValidCredentials" />
         <item itemvalue="JUnit.LoginUser" />
-        <item itemvalue="JUnit.SetUP.loginWithValidCredentials" />
-        <item itemvalue="JUnit.SetUP" />
+        <item itemvalue="JUnit.TestBase.loginWithValidCredentials" />
+        <item itemvalue="JUnit.TestBase" />
       </list>
     </recent_temporary>
   </component>
@@ -643,21 +625,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SetUP_loginWithValidCredentials - 2018.11.09 at 14h 05m 02s.xml">
-      <configuration name="SetUP.loginWithValidCredentials" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetUP_loginWithValidCredentials - 2018.11.09 at 14h 06m 49s.xml">
-      <configuration name="SetUP.loginWithValidCredentials" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetUP_loginWithValidCredentials - 2018.11.09 at 14h 07m 34s.xml">
-      <configuration name="SetUP.loginWithValidCredentials" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetUP_loginWithValidCredentials - 2018.11.09 at 14h 08m 06s.xml">
-      <configuration name="SetUP.loginWithValidCredentials" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 43m 14s.xml">
-      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 43m 45s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
@@ -673,61 +640,54 @@
     <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 18h 07m 20s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 11h 06m 42s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 11h 08m 05s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 11h 10m 20s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 11h 13m 49s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 11h 15m 41s.xml">
+      <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1877" y="-64" width="1920" height="1000" extended-state="0" />
+    <frame x="1" y="50" width="1920" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32890365" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32890365" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32890365" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
-      <window_info anchor="bottom" id="Build" weight="0.32890365" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info id="Designer" order="4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32890365" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32890365" />
       <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32890365" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32890365" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32890365" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -739,8 +699,32 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -756,10 +740,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
           <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
@@ -771,12 +776,12 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="600">
           <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
@@ -800,7 +805,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
           <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
@@ -810,7 +815,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
@@ -834,7 +839,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
           <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
@@ -844,7 +849,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
@@ -868,7 +873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
           <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
@@ -878,20 +883,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="414" selection-start-line="18" selection-start-column="414" selection-end-line="18" selection-end-column="414" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -902,30 +900,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SplashScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="18" selection-end-column="25" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SplashScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="165">
+          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
