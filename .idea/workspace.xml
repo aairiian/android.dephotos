@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ea5be33-a739-4178-9b04-e631fcece200" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_tests/SetUP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_tests/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,8 +25,8 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+            <state relative-caret-position="289">
+              <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +34,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SplashScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SplashScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +58,33 @@
       <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="431">
+              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteWebDriver.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.5/cc786f09768f5af2220ccbff671dc84a40f083b6/selenium-remote-driver-3.141.5-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="512" column="23" selection-start-line="512" selection-start-column="23" selection-end-line="512" selection-end-column="23" />
+              <folding>
+                <element signature="e#17706#17707#0" expanded="true" />
+                <element signature="e#17748#17749#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriver.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/6.0.0/3592b2439b5c0975a11ffab481967e3e30faa93b/java-client-6.0.0-sources.jar!/org/openqa/selenium/WebDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="371" column="19" selection-start-line="371" selection-start-column="19" selection-end-line="371" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -384,8 +413,9 @@
         <option value="$PROJECT_DIR$/src/test/java/UI_tests/LoginUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SetUP.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SplashScreen.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/LoginUser.java" />
       </list>
     </option>
   </component>
@@ -419,13 +449,6 @@
               <item name="android.dephotos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="android.dephotos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android.dephotos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="android.dephotos" type="b2602c69:ProjectViewProjectNode" />
@@ -625,43 +648,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 43m 45s.xml">
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 17h 03m 25s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 48m 09s.xml">
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 17h 37m 40s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 54m 54s.xml">
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 18h 19m 03s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 17h 58m 59s.xml">
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 18h 20m 45s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.09 at 18h 07m 20s.xml">
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 18h 30m 32s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 11h 06m 42s.xml">
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 18h 38m 05s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 11h 08m 05s.xml">
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 18h 39m 05s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 11h 10m 20s.xml">
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 18h 41m 20s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 11h 13m 49s.xml">
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 18h 45m 50s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 11h 15m 41s.xml">
+    <history-entry file="LoginUser_loginWithValidCredentials - 2018.11.12 at 18h 48m 37s.xml">
       <configuration name="LoginUser.loginWithValidCredentials" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="50" width="1920" height="1000" extended-state="0" />
+    <frame x="-1920" y="-60" width="1920" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32890365" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
@@ -669,17 +701,18 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32890365" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32890365" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32890365" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="4" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -687,7 +720,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32890365" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -695,7 +727,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -893,13 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -907,30 +932,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/6.0.0/3592b2439b5c0975a11ffab481967e3e30faa93b/java-client-6.0.0-sources.jar!/io/appium/java_client/remote/MobileCapabilityType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        <state relative-caret-position="289">
+          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/6.0.0/3592b2439b5c0975a11ffab481967e3e30faa93b/java-client-6.0.0-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="371" column="19" selection-start-line="371" selection-start-column="19" selection-end-line="371" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/SplashScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.5/cc786f09768f5af2220ccbff671dc84a40f083b6/selenium-remote-driver-3.141.5-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="512" column="23" selection-start-line="512" selection-start-column="23" selection-end-line="512" selection-end-column="23" />
+          <folding>
+            <element signature="e#17706#17707#0" expanded="true" />
+            <element signature="e#17748#17749#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="431">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

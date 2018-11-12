@@ -25,14 +25,14 @@ public class TestBase {
         capabilities.setCapability("app", "/Users/user/Downloads/Root-debug.apk");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         capabilities.setCapability(MobileCapabilityType.FULL_RESET, "False");
-//        capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "100");
+        capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "1000");
 //        capabilities.setCapability("unicodeKeyboard", "true");
 //        capabilities.setCapability("resetKeyboard", "true");
 
 
-        URL remoteUrl = new URL("http://127.0.0.01:4723/wd/hub");
+        URL remoteUrl = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new AndroidDriver(remoteUrl,capabilities);
-        wait = new WebDriverWait(driver,10);
+        wait = new WebDriverWait(driver,100);
         System.out.println("Appium server started successfully");
 
     }
