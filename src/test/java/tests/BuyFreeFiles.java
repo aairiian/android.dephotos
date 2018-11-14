@@ -51,7 +51,6 @@ public class BuyFreeFiles extends TestBase {
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.depositphotos.root:id/toolbar")));
 
-        String text = "Free files";
         driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"com.depositphotos.root:id/scrollContainer\")).scrollIntoView(new UiSelector().resourceId(\"com.depositphotos.root:id/free_files_label\"))").click();
 
 //
