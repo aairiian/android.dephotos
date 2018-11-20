@@ -5,14 +5,16 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.remote.CommandExecutor;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Set;
 
 public class TestBase {
 
-    AndroidDriver driver;
+    static AndroidDriver driver;
     WebDriverWait wait;
 
 
@@ -28,6 +30,8 @@ public class TestBase {
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         capabilities.setCapability(MobileCapabilityType.FULL_RESET, "False");
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "1000");
+        capabilities.setCapability(MobileCapabilityType.SUPPORTS_JAVASCRIPT, true);
+
 
 
         URL remoteUrl = new URL("http://127.0.0.1:4723/wd/hub");
@@ -39,12 +43,22 @@ public class TestBase {
 
 
 
+
+
     }
 
     @After
     public void teardown() throws Exception {
         driver.quit();
     }
+
+//    protected void setCommandExecutor(CommandExecutor executor) {
+//        this.executor = executor;
+//    }
+
+
+
+
 
 
 

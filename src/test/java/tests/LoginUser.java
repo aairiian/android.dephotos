@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import static org.junit.Assert.assertEquals;
 
 
 public class LoginUser extends TestBase {
@@ -25,13 +26,13 @@ public class LoginUser extends TestBase {
         MobileElement loginPanel = (MobileElement) driver.findElement(By.id("com.depositphotos.root:id/design_menu_item_text"));
         loginPanel.click();
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.depositphotos.root:id/photo_background_view")));
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.depositphotos.root:id/fragment_login_username")));
 
         MobileElement inputLogin = (MobileElement) driver.findElement(By.id("com.depositphotos.root:id/fragment_login_username"));
         inputLogin.clear();
         inputLogin.sendKeys("qadeposit1");
+
 
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.depositphotos.root:id/fragment_login_password")));
@@ -44,6 +45,7 @@ public class LoginUser extends TestBase {
         MobileElement tapOnLoginButton = (MobileElement) driver.findElement(By.id("com.depositphotos.root:id/tv_auth_action"));
         tapOnLoginButton.click();
 
+
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.depositphotos.root:id/toolbar")));
 
     }
@@ -52,3 +54,6 @@ public class LoginUser extends TestBase {
 
 
 }
+
+
+
