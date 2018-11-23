@@ -22,9 +22,9 @@ dependencies {
 }
 
 
-plugins {
-    id "pl.droidsonroids.animation-disabler" version "1.0.6"
-}
+//plugins {
+//    id "pl.droidsonroids.animation-disabler" version "1.0.6"
+//}
 
 
 

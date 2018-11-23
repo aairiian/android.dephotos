@@ -29,6 +29,7 @@ public class LoginUser extends TestBase {
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.depositphotos.root:id/fragment_login_username")));
 
+
         MobileElement inputLogin = (MobileElement) driver.findElement(By.id("com.depositphotos.root:id/fragment_login_username"));
         inputLogin.clear();
         inputLogin.sendKeys("qadeposit1");
@@ -44,6 +45,9 @@ public class LoginUser extends TestBase {
 
         MobileElement tapOnLoginButton = (MobileElement) driver.findElement(By.id("com.depositphotos.root:id/tv_auth_action"));
         tapOnLoginButton.click();
+
+        assertEquals("User is successfully logged in", tapOnLoginButton.getText(), "LOG IN");
+        System.out.println("User is logged in");
 
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.depositphotos.root:id/toolbar")));

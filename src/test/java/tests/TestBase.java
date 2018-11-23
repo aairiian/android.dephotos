@@ -1,5 +1,6 @@
 package tests;
 import io.appium.java_client.MobileDriver;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.junit.After;
@@ -11,6 +12,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Set;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestBase {
 
@@ -37,7 +40,12 @@ public class TestBase {
         URL remoteUrl = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new AndroidDriver(remoteUrl, capabilities);
         wait = new WebDriverWait(driver, 100);
-        System.out.println("Appium server started successfully");
+        assertEquals("Appium starts", remoteUrl.toString(), "http://127.0.0.1:4723/wd/hub");
+        System.out.println("Appium starts");
+
+
+//        driver.executeScript("mobile:shell","adb shell am broadcast -a io.appium.settings.animation --es setstatus disable");
+
 
 
 
