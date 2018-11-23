@@ -52,6 +52,7 @@ public class LoginUser extends TestBase {
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.depositphotos.root:id/toolbar")));
 
+
     }
 
 
